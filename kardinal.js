@@ -79,7 +79,21 @@ client.on("message", (message)=>{
         case "?":
             if (args[1]) message.channel.sendMessage(fortunes[Math.floor(Math.random() * fortunes.length)]);
             else message.channel.sendMessage("Naslouchám, polož svoji otázku");
+            break
+   case "pomoc":
+            var pomoc = new Discord.RichEmbed()
+                .addField("❓ *?", "Položíš Kardinalovi otázku.")
+                .addField("🎶 *dj", "Příkazy pro DJ bota. Hrajeme na vaše pčání.")
+                .addField("💊 *spec", "Zobrazí guidy ma classy a specy")
+                .addField("🗑 *delete xx", "Smaže předchozí zprávi xx - počet zpráv")
+                .addField("☯ *ikon", "Ikonky pro channely")
+                .setColor(0xDE1212)
+                .setFooter("📌                                         Naslouchám ti můj synu.                                             📌")
+                .setTitle("🎚                     ✅Zvládl jsi to zde jsou příkazy!                   🎚") 
+                .setThumbnail('http://imgWorld.cz/s3/WNTKewOsPE.png')         
+            message.channel.sendMessage(pomoc)
             break;
+            
         case "help":
             var help = new Discord.RichEmbed()
                 .addField("❓ `*?`", "Položíš Kardinalovi otázku.")
@@ -87,7 +101,6 @@ client.on("message", (message)=>{
                 .addField("💊 `*spec`", "Zobrazí guidy ma classy a specy")
                 .addField("🗑 `*delete xx`", "Smaže předchozí zprávi xx - počet zpráv")
                 .addField("☯ `*ikon`", "Ikonky pro channely")
-                
                 .setColor(0xDE1212)
                 .setFooter("📌                                         Naslouchám ti můj synu.                                             📌")
                 .setTitle("🎚                     ✅Zvládl jsi to zde jsou příkazy!                   🎚") 
