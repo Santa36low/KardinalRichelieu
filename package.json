@@ -1,8 +1,8 @@
 {
-  "name": "tutorialbot",
+  "name": "Kardinal Richelieu",
   "version": "1.0.0",
-  "description": "A Tutorial Bot",
-  "main": "index.js",
+  "description": "Kardinal Richelieu",
+  "main": "kardinal.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
