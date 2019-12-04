@@ -9,6 +9,7 @@
   "author": "synopNode",
   "license": "ISC",
   "dependencies": {
+    "websocket": "^1.0.25"
     "discord.js": "^11.4.2",
     "mongoose": "^5.6.8",
     "pretty-ms": "^5.0.0",
