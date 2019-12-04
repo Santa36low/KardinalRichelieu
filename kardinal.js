@@ -1,9 +1,6 @@
 const Discord = require('discord.js')
 const client = new Discord.Client()
 
-const fs = require('fs')
-const stream = fs.createReadStream('does-not-exist.txt')
-
 const PREFIX = "*"
 const TOKEN = "NjUwNjY3MTE3NjMyNDIxODkw.XeQLXQ.N8X2Fc2ScEjD5gRxrbLXhbdmOlo"
 const ID = "650642909863084093"
