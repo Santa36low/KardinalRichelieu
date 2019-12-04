@@ -135,4 +135,4 @@ client.on("message", (message)=>{
     }
 });
 
-client.login(proces.env.TOKEN)
+client.login(process.env.TOKEN)
