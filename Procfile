@@ -1,1 +1,1 @@
-worker: node kardinal.js
+worker: node index.js
