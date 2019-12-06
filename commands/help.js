@@ -9,6 +9,8 @@ module.exports.run = async (bot, message, args) => {
                 .addField("🎶 `*dj`", "Příkazy pro DJ bota. Hrajeme na vaše pčání.")
                 .addField("💊 `*spec`", "Zobrazí guidy ma classy a specy")
                 .addField("🗑 `*delete xx`", "Smaže předchozí zprávi xx - počet zpráv")
+                .addField("🔰 `*ali`", "Ukaže banner alliance")
+                .addField("🔰 `*hord`", "Ukaže banner hordy")
                 .addField("☯ `*ikon`", "Ikonky pro channely")
                 .setColor(0xDE1212)
                 .setFooter("📌                                         Naslouchám ti můj synu.                                             📌")
