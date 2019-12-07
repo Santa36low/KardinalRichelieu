@@ -1,2 +1,0 @@
-# KardinalRichelieu
-Hosting on Heroku
