@@ -11,12 +11,12 @@ module.exports.run = async (bot, message, args) => {
     .setColor(0xDE1212)
     .setFooter("📌                                Naslouchám ti můj synu. Zvol si spec.                             📌")
     .setTitle("🎚                     ✅Zvládl jsi to zde jsou příkazy!                   🎚")
-    .setThumbnail('https://raw.githubusercontent.com/Santa36low/KardinalRichelieu/master/obr%C3%A1zky/sword logo 1.png')
+    .setThumbnail('https://raw.githubusercontent.com/Santa36low/KardinalRichelieu/master/obr%C3%A1zky/sword%20logo%201.png')
     message.channel.send(embed);
 
 };
 
 module.exports.help = {
-    name: 'spec',
+    name: "spec",
     aliases: ['specky', 'talenty', 'talenty']
 };
