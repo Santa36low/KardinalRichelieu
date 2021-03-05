@@ -15,7 +15,7 @@ module.exports.run = async (bot, message, args) => {
                 .setColor(0xDE1212)
                 .setFooter("📌                                         Naslouchám ti můj synu.                                             📌")
                 .setTitle("🎚                     ✅Zvládl jsi to zde jsou příkazy!                   🎚") 
-                .setThumbnail('https://raw.githubusercontent.com/Santa36low/KardinalRichelieu/master/obr%C3%A1zky/sword%20logo%201.png')
+                .setThumbnail('https://raw.githubusercontent.com/Santa36low/KardinalRichelieu/master/obr%C3%A1zky/black-sword-icon-0.jpg')
     message.channel.send(embed);
 
 };
