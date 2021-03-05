@@ -14,8 +14,8 @@ module.exports.run = async (bot, message, args) => {
                 .addField("☯ `*ikon`", "Ikonky pro channely")
                 .setColor(0xDE1212)
                 .setFooter("📌                                         Naslouchám ti můj synu.                                             📌")
-                .setAuthor("Kardinal Richelieu je připravený. ✅", "https://raw.githubusercontent.com/Santa36low/KardinalRichelieu/master/obr%C3%A1zky/logo.sword.png") 
-                .setTitle("Vyber charakter a spec.")
+                .setAuthor("Kardinal Richelieu je připravený. ✅", "https://raw.githubusercontent.com/Santa36low/KardinalRichelieu/master/obr%C3%A1zky/sword-logo-2.png") 
+                .setTitle("Vyber si příkaz.")
                 .setThumbnail("https://raw.githubusercontent.com/Santa36low/KardinalRichelieu/master/obr%C3%A1zky/black-sword-icon-0.jpg")
     message.channel.send(embed);
 
