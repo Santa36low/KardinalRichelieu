@@ -4,7 +4,6 @@ module.exports.run = async (bot, message, args) => {
 
     let reddit = [
         "wow",
-        "woweconomy",
         "warcraftlore",
         "WoWComics",
         "classicwow"
